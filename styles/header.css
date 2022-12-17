@@ -73,6 +73,7 @@ overflow: hidden;
 		 border-radius: 20px;
 		 font-family: 'Ubuntu', sans-serif;
 		 transition: 0.3s ease;
+		 border: solid #d51b22 2px;
 		 }
 		 header div a:hover {
 		 color: #d51b22;
