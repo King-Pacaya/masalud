@@ -83,3 +83,36 @@ display: flex;
 			transform: translate(-50%, -50%);
 			height: 70%;
 			}
+
+@media (max-width: 900px) {
+
+footer {
+height: auto;
+width: 100%;
+flex-wrap: wrap;
+}
+	footer iframe, footer div {
+	height: 60vh;
+	width: 100%;
+	}
+	footer .contact {
+	height: auto;
+	}
+		footer .contact .tittle {
+		font-size: 30px;
+		text-align: center;
+		}
+		footer .contact .subtittle {
+		height: 50px;
+		}
+			footer .contact .subtittle svg {
+			width: 50px;
+			}
+			footer .contact .subtittle p {
+			font-size: 25px;
+			}
+		footer .info {
+		font-size: 20px;
+		}
+
+}

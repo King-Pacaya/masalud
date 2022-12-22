@@ -11,7 +11,7 @@ overflow: hidden;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
-	filter: brightness(90%);
+	filter: brightness(70%);
 	}
 	header div {
 	position: absolute;
@@ -80,3 +80,32 @@ overflow: hidden;
 		 border: solid #d51b22 2px;
 		 background-color: #fff;
 		 }
+
+@media (max-width: 900px) {
+	header video, header img {
+	height: 101%;
+	width: auto;
+	}
+	header div {
+	height: 60%;
+	width: 80%;
+	}
+		 header div p:nth-child(1) {
+		 font-size: 18px;
+		 }
+		 header div p:nth-child(2) {
+		 font-size: 55px;
+		 }
+		 header div p:nth-child(3) {
+		 font-size: 20px;
+		 }
+		 header div a {
+		 font-size: 20px;
+		 }
+}
+@media (max-width: 500px) {
+	header div {
+	height: 70%;
+	width: 90%;
+	}
+}
